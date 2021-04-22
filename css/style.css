@@ -2,6 +2,7 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --mobile-margin: 15px;
 }
 
 body {
@@ -95,6 +96,12 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+.mobilemargin {
+  margin-top: 5px;
+  margin-left: var(--mobile-margin);
+  margin-right: var(--mobile-margin);
 }
 
 @media (max-width: 600px) {
